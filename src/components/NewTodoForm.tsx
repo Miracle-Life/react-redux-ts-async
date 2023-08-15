@@ -6,6 +6,8 @@ interface NewTodoFormProps {
     handleAction: () => void,
 }
 
+//test
+
 const NewTodoForm: React.FC<NewTodoFormProps> = ({ value, updateText, handleAction }) => {
     return (
         <label>
